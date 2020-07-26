@@ -1,0 +1,48 @@
+.realtime {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.realtime-temp {
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: bold;
+    color: var(--blackish);
+}
+
+.realtime-temp-degrees {
+    color: var(--blackish);
+    font-weight: bold;
+    align-self: flex-start;
+    margin-right: 16px;
+    margin-top: 4px;
+}
+
+.realtime-weather-code {
+    color: var(--blackish);
+}
+
+.realtime-icon {
+    width: 66px;
+    height: 66px;
+    margin-left: auto;
+}
+
+@media only screen and (max-width: 768px) {
+    .realtime-temp {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .realtime-temp-degrees {
+        margin-right: 10px;
+    }
+    .realtime-icon {
+        width: 56px;
+        height: 56px;
+    }
+    .realtime-feels-like {
+        margin-right: 10px;
+    }
+}
