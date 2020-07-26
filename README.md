@@ -1,3 +1,9 @@
+## Weather Widget using Climacell Weather API
+
+![Screen Shot](https://raw.githubusercontent.com/lucianmurmurache/weather-widget/develop/public/berlin-widget.png "Screen Shot")
+![Screen Shot](https://raw.githubusercontent.com/lucianmurmurache/weather-widget/develop/public/bucharest-widget.png "Screen Shot")
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
